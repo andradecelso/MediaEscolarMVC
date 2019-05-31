@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/celso/.gradle/caches/transforms-2/files-2.1/8e151fdcf6e928da200bba827fbca21d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/eaaa107a4d8eca9d3a891618577dc446/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/7609b19792ce1bd9b33f8d756605fb76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3591235490df10ba610f6504f0cbedaf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/5559d3a62bcd6c4d4d8dc07dfaa4dd55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/9ad15f8760fdbac8e6406c1e5ef4f8ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0f55f0f063c4a27ba400da5127c7705b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a4db1fd8174b55c9b7d8fa24ed26475/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/845cb9a75b4eab847c65c5b8608504ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/20decc9e9d8d54c7f38938484d5f1a2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a420834fa2c4c477d235533ca0614f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3329a9418a7752152251612d60e20c94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/66363d2fd379ed40ffb500b7eb334d68/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0ef9ebc528a431a91f4cd54128b27903/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/80f3445238b3ab859dcdb315720c3b03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/d78b6c7752350d6f7c585371ea3f993f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3971eb89012157690c673e384c13fe60/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/2eb1c24d7239dfdf062ee2979cdc16cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a74c1d64493d54539fb1b783b8d20d82/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/898039dfe683d3b44675b7d49ae576b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3f8c0e4d1698fe5c8b2ae4a94da5e793/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/dd3c978258746ce9594fc975dc0ba8c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/c0e5ff862fc89130ec3abf2aa53269ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/ce4045b7e79901b7fcfee28a49d2a9ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/118b7746eb2edda0b012d784bc749076/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9a22ac2b45b29b5bf2eccd179072eee1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/a40bddc42686e033eff07c4e0f55ac4b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9e538fb78410d019de9dba18d89e21fc/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:5:5-29:19
+MERGED from [com.android.support:design:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/celso/.gradle/caches/transforms-2/files-2.1/8e151fdcf6e928da200bba827fbca21d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/celso/.gradle/caches/transforms-2/files-2.1/8e151fdcf6e928da200bba827fbca21d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3971eb89012157690c673e384c13fe60/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3971eb89012157690c673e384c13fe60/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:11:9-40
+activity#br.com.javacomcafe.mediaescolarmvc.view.SplashActivity
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:13:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:19:27-74
+activity#br.com.javacomcafe.mediaescolarmvc.view.MainActivity
+ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:23:9-26:59
+	android:label
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:25:13-45
+	android:theme
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml:24:13-46
+uses-sdk
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/celso/.gradle/caches/transforms-2/files-2.1/8e151fdcf6e928da200bba827fbca21d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/celso/.gradle/caches/transforms-2/files-2.1/8e151fdcf6e928da200bba827fbca21d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/eaaa107a4d8eca9d3a891618577dc446/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/eaaa107a4d8eca9d3a891618577dc446/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/7609b19792ce1bd9b33f8d756605fb76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/7609b19792ce1bd9b33f8d756605fb76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3591235490df10ba610f6504f0cbedaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3591235490df10ba610f6504f0cbedaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/5559d3a62bcd6c4d4d8dc07dfaa4dd55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/5559d3a62bcd6c4d4d8dc07dfaa4dd55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/9ad15f8760fdbac8e6406c1e5ef4f8ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/9ad15f8760fdbac8e6406c1e5ef4f8ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0f55f0f063c4a27ba400da5127c7705b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0f55f0f063c4a27ba400da5127c7705b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a4db1fd8174b55c9b7d8fa24ed26475/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a4db1fd8174b55c9b7d8fa24ed26475/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/845cb9a75b4eab847c65c5b8608504ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/845cb9a75b4eab847c65c5b8608504ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/20decc9e9d8d54c7f38938484d5f1a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/20decc9e9d8d54c7f38938484d5f1a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a420834fa2c4c477d235533ca0614f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/6a420834fa2c4c477d235533ca0614f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3329a9418a7752152251612d60e20c94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3329a9418a7752152251612d60e20c94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/66363d2fd379ed40ffb500b7eb334d68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/66363d2fd379ed40ffb500b7eb334d68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0ef9ebc528a431a91f4cd54128b27903/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/0ef9ebc528a431a91f4cd54128b27903/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/80f3445238b3ab859dcdb315720c3b03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/80f3445238b3ab859dcdb315720c3b03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/d78b6c7752350d6f7c585371ea3f993f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/d78b6c7752350d6f7c585371ea3f993f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3971eb89012157690c673e384c13fe60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3971eb89012157690c673e384c13fe60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/2eb1c24d7239dfdf062ee2979cdc16cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/2eb1c24d7239dfdf062ee2979cdc16cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a74c1d64493d54539fb1b783b8d20d82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/a74c1d64493d54539fb1b783b8d20d82/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/898039dfe683d3b44675b7d49ae576b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/898039dfe683d3b44675b7d49ae576b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3f8c0e4d1698fe5c8b2ae4a94da5e793/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/3f8c0e4d1698fe5c8b2ae4a94da5e793/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/dd3c978258746ce9594fc975dc0ba8c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/dd3c978258746ce9594fc975dc0ba8c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/c0e5ff862fc89130ec3abf2aa53269ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/c0e5ff862fc89130ec3abf2aa53269ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/ce4045b7e79901b7fcfee28a49d2a9ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/ce4045b7e79901b7fcfee28a49d2a9ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/118b7746eb2edda0b012d784bc749076/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/celso/.gradle/caches/transforms-2/files-2.1/118b7746eb2edda0b012d784bc749076/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9a22ac2b45b29b5bf2eccd179072eee1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9a22ac2b45b29b5bf2eccd179072eee1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/a40bddc42686e033eff07c4e0f55ac4b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/a40bddc42686e033eff07c4e0f55ac4b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9e538fb78410d019de9dba18d89e21fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/celso/.gradle/caches/transforms-2/files-2.1/9e538fb78410d019de9dba18d89e21fc/AndroidManifest.xml:20:5-44
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		ADDED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/celso/androidProjects/MediaEscolarMVC/app/src/main/AndroidManifest.xml
