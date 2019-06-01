@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/celso/Documentos/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/celso/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/bfb0ccf80b12e8132f24d5e4501b2e52/res/values-land/values-land.xml",
+                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/8d5f44d7f6c6e309bd0151b415667f67/res/values-land/values-land.xml",
+                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/e375c77d8535111179ba1d913dda384f/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

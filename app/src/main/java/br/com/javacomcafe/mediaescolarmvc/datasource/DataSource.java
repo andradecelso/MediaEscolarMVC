@@ -18,7 +18,7 @@ public class DataSource extends SQLiteOpenHelper {
 
 
     private static final String DB_NAME = "media_escolar.sqlite";
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 1;
 
     SQLiteDatabase db;
     Cursor cursor;
@@ -104,6 +104,8 @@ public class DataSource extends SQLiteOpenHelper {
 
         }catch(Exception e){
 
+            e.getMessage();
+
         }
 
 
@@ -118,7 +120,7 @@ public class DataSource extends SQLiteOpenHelper {
 
         List<MediaEscolar> lista = new ArrayList<>();
 
-        String sql = "SELECT * FROM " + MediaEscolarDataModel.getTABELA() + "ORDER BY materia";
+        String sql = "SELECT * FROM " + MediaEscolarDataModel.getTABELA() + " ORDER BY materia";
 
 
         cursor = db.rawQuery(sql,null);
@@ -144,6 +146,36 @@ public class DataSource extends SQLiteOpenHelper {
         return lista;
 
     }
+
+
+
+    public MediaEscolar buscar(int id){
+
+
+        MediaEscolar resultado=null;
+        Cursor cursor;
+
+        String sql = "SELECT * FROM " + MediaEscolarDataModel.getTABELA() + " WHERE ID=" + id;
+
+        cursor = db.rawQuery(sql,null);
+
+        if (cursor.moveToFirst()){
+
+            resultado = new MediaEscolar();
+
+            resultado.setId(cursor.getInt(cursor.getColumnIndex(MediaEscolarDataModel.getId())));
+            resultado.setMateria(cursor.getString(cursor.getColumnIndex(MediaEscolarDataModel.getMateria())));
+
+        }
+
+        cursor.close();
+
+
+        return resultado;
+
+
+    }
+
 
 
 }

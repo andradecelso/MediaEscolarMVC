@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/celso/Documentos/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "outputFile": "/home/celso/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/bfb0ccf80b12e8132f24d5e4501b2e52/res/values-v25/values-v25.xml",
+                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

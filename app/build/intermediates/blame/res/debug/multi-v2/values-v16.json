@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/celso/Documentos/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/celso/androidProjects/MediaEscolarMVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/bfb0ccf80b12e8132f24d5e4501b2e52/res/values-v16/values-v16.xml",
+                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/81a128b75a9842bc59aca3fa22a3545f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/a3f30403fb13ecaaa35adb22390b843f/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/celso/.gradle/caches/transforms-2/files-2.1/8711f568419459bfe72ac2ad4a528ea8/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

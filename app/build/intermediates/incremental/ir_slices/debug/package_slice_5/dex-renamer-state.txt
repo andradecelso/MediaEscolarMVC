@@ -1,4 +1,4 @@
-#Tue May 28 22:00:54 BRT 2019
-base.0=/home/celso/Documentos/androidProjects/MediaEscolarMVC/app/build/intermediates/transforms/dexMerger/debug/5
+#Sat Jun 01 11:05:36 BRT 2019
+base.0=/home/celso/androidProjects/MediaEscolarMVC/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex

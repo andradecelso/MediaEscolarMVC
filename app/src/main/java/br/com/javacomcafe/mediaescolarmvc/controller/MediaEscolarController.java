@@ -2,6 +2,7 @@ package br.com.javacomcafe.mediaescolarmvc.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.provider.MediaStore;
 
 import java.util.List;
 
@@ -93,6 +94,14 @@ public List<MediaEscolar> listar(){
 
         return getAllMediaEscolar();
 }
+
+
+public MediaEscolar buscarId(int id){
+
+        return buscar(id);
+
+}
+
 
 }
 
