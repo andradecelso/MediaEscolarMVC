@@ -2,11 +2,17 @@ package br.com.javacomcafe.mediaescolarmvc.datasource;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.provider.MediaStore;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import br.com.javacomcafe.mediaescolarmvc.datamodel.MediaEscolarDataModel;
+import br.com.javacomcafe.mediaescolarmvc.model.MediaEscolar;
 
 public class DataSource extends SQLiteOpenHelper {
 
@@ -15,7 +21,7 @@ public class DataSource extends SQLiteOpenHelper {
     private static final int DB_VERSION = 3;
 
     SQLiteDatabase db;
-
+    Cursor cursor;
 
 
     public DataSource(Context context) {
@@ -82,5 +88,62 @@ public class DataSource extends SQLiteOpenHelper {
 
 
     }
+
+
+
+
+    public boolean alterar(String tabela, ContentValues dados){
+
+        boolean sucesso = true;
+        int id = dados.getAsInteger("id");
+
+
+
+        try {
+            sucesso = db.update(tabela, dados, "id=?", new String[]{Integer.toString(id)}) >0;
+
+        }catch(Exception e){
+
+        }
+
+
+        return sucesso;
+
+
+    }
+
+    public List<MediaEscolar> getAllMediaEscolar(){
+
+        MediaEscolar obj;
+
+        List<MediaEscolar> lista = new ArrayList<>();
+
+        String sql = "SELECT * FROM " + MediaEscolarDataModel.getTABELA() + "ORDER BY materia";
+
+
+        cursor = db.rawQuery(sql,null);
+
+        if (cursor.moveToFirst()){
+
+            do {
+
+                obj = new MediaEscolar();
+
+                obj.setId(cursor.getInt(cursor.getColumnIndex(MediaEscolarDataModel.getId())));
+                obj.setMateria(cursor.getString(cursor.getColumnIndex(MediaEscolarDataModel.getMateria())));
+
+                lista.add(obj);
+
+
+            } while (cursor.moveToNext());
+
+            cursor.close();
+
+        }
+
+        return lista;
+
+    }
+
 
 }

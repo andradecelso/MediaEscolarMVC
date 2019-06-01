@@ -3,6 +3,8 @@ package br.com.javacomcafe.mediaescolarmvc.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.List;
+
 import br.com.javacomcafe.mediaescolarmvc.datamodel.MediaEscolarDataModel;
 import br.com.javacomcafe.mediaescolarmvc.datasource.DataSource;
 import br.com.javacomcafe.mediaescolarmvc.model.MediaEscolar;
@@ -61,6 +63,36 @@ public class MediaEscolarController extends DataSource {
 
     }
 
+
+    public boolean alterar(MediaEscolar obj){
+
+        dados = new ContentValues();
+        boolean sucesso=true;
+
+        dados.put(MediaEscolarDataModel.getId(),obj.getId());
+        dados.put(MediaEscolarDataModel.getMateria(),obj.getMateria());
+        dados.put(MediaEscolarDataModel.getBimestre(),obj.getBimestre());
+        dados.put(MediaEscolarDataModel.getSituacao(),obj.getSituacao());
+        dados.put(MediaEscolarDataModel.getNotaProva(),obj.getNotaProva());
+        dados.put(MediaEscolarDataModel.getNotaMateria(),obj.getNotaMateria());
+        dados.put(MediaEscolarDataModel.getMediaFinal(),obj.getMediaFinal());
+
+
+        sucesso = alterar(MediaEscolarDataModel.getTABELA(),dados);
+
+
+
+        return sucesso;
+
+    }
+
+
+
+public List<MediaEscolar> listar(){
+
+
+        return getAllMediaEscolar();
+}
 
 }
 

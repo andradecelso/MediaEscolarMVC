@@ -6,6 +6,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import java.util.List;
+
 import br.com.javacomcafe.mediaescolarmvc.R;
 import br.com.javacomcafe.mediaescolarmvc.controller.MediaEscolarController;
 import br.com.javacomcafe.mediaescolarmvc.datasource.DataSource;
@@ -59,7 +61,7 @@ public class SplashActivity extends AppCompatActivity {
                 mediaEscolarController.deletar(obj);
 
 
-
+List<MediaEscolar> objetos = mediaEscolarController.listar();
 
 
                 Intent telaPrincipal = new Intent(SplashActivity.this, MainActivity.class);
