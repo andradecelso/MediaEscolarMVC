@@ -18,4 +18,13 @@
     <string name="compartilhar">Compartilhar App</string>
     <string name="title_activity_splash">Media Escolar MVC</string>
     <string name="contentName">livros</string>
+    <string name="title_activity_lancamento_notas">LancamentoNotasActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modelo_fragmento">Fragmento Modelo</string>
+    <string name="notas1">Notas 1o Bimestre</string>
+    <string name="notas2">Notas 2o Bimestre</string>
+    <string name="notas3">Notas 3o Bimestre</string>
+    <string name="notas4">Notas 4o Bimestre</string>
 </resources>

@@ -58,27 +58,10 @@ public class SplashActivity extends AppCompatActivity {
                 }
 
 
-               obj = mediaEscolarController.buscarId(4);
-                Log.i("RETORNO: ","objeto ID:" + obj.getId());
-
-                String resultado="";
-                try {
-                    mediaEscolarController.deletar(obj);
-                    resultado="sucesso";
-
-                }catch(Exception e){
-                    resultado ="erro: " + e.getMessage();
-
-                }
 
 
-               Log.i("remocao","status:" + resultado);
 
 
-                for (MediaEscolar lista: objetos
-                ) {
-                    Log.i("RETORNO BANCO:  ","ID= " + lista.getId() + " Materia= "+ lista.getMateria() );
-                }
 
                 Intent telaPrincipal = new Intent(SplashActivity.this, MainActivity.class);
 

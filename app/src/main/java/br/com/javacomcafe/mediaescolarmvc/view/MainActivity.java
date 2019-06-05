@@ -3,6 +3,7 @@ package br.com.javacomcafe.mediaescolarmvc.view;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -15,9 +16,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
 import br.com.javacomcafe.mediaescolarmvc.R;
+import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreAFragment;
+import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreBFragment;
+import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreCFragment;
+import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreDFragment;
+import br.com.javacomcafe.mediaescolarmvc.fragment.ModeloFragment;
+import br.com.javacomcafe.mediaescolarmvc.fragment.ResultadoFinalFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    FragmentManager fragmentManager;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +36,11 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+
+
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +56,14 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+
+
+
+        fragmentManager = getSupportFragmentManager();
+
+        fragmentManager.beginTransaction().replace(R.id.content_fragment,new ModeloFragment()).commit();
+
     }
 
     @Override
@@ -82,11 +106,33 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_lancNotas) {
-            // Handle the camera action
-        } else if (id == R.id.nav_resultadoFinal) {
+        if (id == R.id.nav_bimestre_a) {
+
+            setTitle("Notas 1o Bimestre");
 
 
+            fragmentManager.beginTransaction().replace(R.id.content_fragment,new BimestreAFragment()).commit();
+
+        } else if (id == R.id.nav_bimestre_b) {
+
+
+            setTitle("Notas 2o Bimestre");
+            fragmentManager.beginTransaction().replace(R.id.content_fragment,new BimestreBFragment()).commit();
+
+        } else if (id == R.id.nav_bimestre_c) {
+
+            setTitle("Notas 3o Bimestre");
+            fragmentManager.beginTransaction().replace(R.id.content_fragment,new BimestreCFragment()).commit();
+
+        } else if (id == R.id.nav_bimestre_d) {
+
+            setTitle("Notas 4o Bimestre");
+            fragmentManager.beginTransaction().replace(R.id.content_fragment,new BimestreDFragment()).commit();
+
+        } else if (id == R.id.nav_resultado_final) {
+
+            setTitle("Resultado Final");
+            fragmentManager.beginTransaction().replace(R.id.content_fragment,new ResultadoFinalFragment()).commit();
 
         } else if (id == R.id.nav_compartilhar) {
 
