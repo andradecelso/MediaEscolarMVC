@@ -15,6 +15,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
+import java.text.DecimalFormat;
+
 import br.com.javacomcafe.mediaescolarmvc.R;
 import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreAFragment;
 import br.com.javacomcafe.mediaescolarmvc.fragment.BimestreBFragment;
@@ -141,5 +143,13 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+
+    public static String valorFormatado(Double valor){
+
+        DecimalFormat df = new DecimalFormat("#,###,##0.00");
+
+        return df.format(valor);
     }
 }
