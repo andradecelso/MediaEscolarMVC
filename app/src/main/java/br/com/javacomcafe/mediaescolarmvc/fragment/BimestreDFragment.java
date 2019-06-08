@@ -13,6 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import br.com.javacomcafe.mediaescolarmvc.R;
+import br.com.javacomcafe.mediaescolarmvc.controller.MediaEscolarController;
+import br.com.javacomcafe.mediaescolarmvc.model.MediaEscolar;
 import br.com.javacomcafe.mediaescolarmvc.view.MainActivity;
 
 
@@ -28,6 +30,9 @@ public class BimestreDFragment extends Fragment {
     double notaProva;
     double notaTrabalho;
     double media;
+
+    MediaEscolar mediaEscolar;
+    MediaEscolarController controller;
 
     boolean dadosValidados = true;
     Context context;
@@ -94,19 +99,42 @@ public class BimestreDFragment extends Fragment {
 
                     // Após Validação
                     if(dadosValidados) {
-                        media = (notaProva + notaTrabalho) / 2;
+
+                        mediaEscolar = new MediaEscolar();
+                        controller = new MediaEscolarController(context);
+
+
+                        mediaEscolar.setMateria(editMateria.getText().toString());
+                        mediaEscolar.setNotaProva(Double.parseDouble((editNotaProva.getText().toString())));
+                        mediaEscolar.setNotaTrabalho(Double.parseDouble(editNotaTrabalho.getText().toString()));
+
+
+                        media = controller.calcularMedia(mediaEscolar);
 
                         txtResultado.setText(MainActivity.valorFormatado(media));
 
-                        if (media >= 7) txtSituacaoFinal.setText("Aprovado");
-                        else txtSituacaoFinal.setText("Reprovado");
 
 
+                        mediaEscolar.setBimestre("4o Bimestre");
+                        mediaEscolar.setSituacao(controller.resultadoFinal(media));
+                        mediaEscolar.setMediaFinal(media);
 
+
+                        txtSituacaoFinal.setText(mediaEscolar.getSituacao());
                         editNotaProva.setText(MainActivity.valorFormatado(notaProva));
                         editNotaTrabalho.setText(MainActivity.valorFormatado(notaTrabalho));
 
                         // salvarSharedPreferences();
+
+
+                        if (controller.salvar(mediaEscolar)){
+                            Toast.makeText(context, "Sucesso ao salvar dados", Toast.LENGTH_SHORT).show();
+
+
+                        }else{
+
+                            Toast.makeText(context, "Esso ao tentar salvar dados", Toast.LENGTH_SHORT).show();
+                        }
 
                     }
 
